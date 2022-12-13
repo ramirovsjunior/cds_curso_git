@@ -6,6 +6,10 @@ def load_data():
     return pd.read_csv('/Users/ramirovsjunior/Documents/repos/curso_git/projeto/data/processed/bikes_completed.csv')
 
 
-df = load_data()
+def main():
+    df = load_data()
 
-st.dataframe(df)
+    st.dataframe(df)
+
+if __name__ == '__main__':
+    main()
