@@ -37,11 +37,11 @@ def create_dataframe_section(df):
 
 def main():
 
-    df = load_data()
+    df_r = load_data()
 
-    create_dataframe_section(df)
+    create_dataframe_section(df_r)
 
-    st.dataframe(df)
+    st.dataframe(df_r)
 
 if __name__ == '__main__':
     main()
