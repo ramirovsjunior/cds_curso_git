@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-Import bumpy as np
+Import numpy as np
 
 import src.answers as asw
 from src.extraction import load_data
